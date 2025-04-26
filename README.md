@@ -16,7 +16,12 @@
 Note: In the frontend folder, we are only modifying the globals.css and page.js
 
 ## Backend Set up
-This is not reiterated here. Please refer to the workshop for more information :)
+1. Get your OpenAI API key from https://platform.openai.com/signup
+2. Create a new file called `.env` in the backend folder and add your OpenAI API key to it, so it will look like something like this
+```bash
+OPENAI_API_KEY=sk-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+```
+Other items are not reiterated here. Please refer to the workshop for more information :)
 
 
 ## Spin up the application
