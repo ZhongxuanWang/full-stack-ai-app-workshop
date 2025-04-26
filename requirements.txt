@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+openai>=1.0
+transformers
+torch # Or tensorflow
+pydantic
+python-multipart
+requests
+numpy # <-- ADD THIS LINE

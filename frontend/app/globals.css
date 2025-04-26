@@ -1,0 +1,162 @@
+/* frontend/app/globals.css */
+
+/* Basic Reset/Defaults (Keep or adjust based on Next.js defaults) */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #f8f9fa;
+  color: #343a40;
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* Container for our App content */
+.AppContainer {
+  max-width: 850px;
+  margin: 25px auto;
+  background: #ffffff;
+  padding: 20px 30px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  border-radius: 8px;
+}
+
+/* Header Styles */
+header {
+  text-align: center;
+  border-bottom: 1px solid #dee2e6;
+  padding-bottom: 15px;
+  margin-bottom: 25px;
+}
+header h1 {
+  margin-bottom: 8px;
+  color: #2c3e50;
+  font-weight: 600;
+}
+.disclaimer {
+  font-size: 0.85em;
+  color: #e74c3c;
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+/* Main Content Area */
+main {
+  padding: 0 5px;
+}
+
+/* Input Section Styles */
+.input-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 25px;
+}
+textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-size: 1rem;
+  box-sizing: border-box;
+  resize: vertical;
+  min-height: 80px;
+}
+textarea:focus {
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+button {
+  padding: 10px 18px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
+button:hover:not(:disabled) {
+  background-color: #0056b3;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+button:disabled {
+  background-color: #adb5bd;
+  cursor: not-allowed;
+}
+
+/* Status Message Styles (Loading/Error) */
+.status-message {
+  text-align: center;
+  margin: 20px 0;
+  padding: 12px 15px;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+.loading {
+  color: #004085;
+  background-color: #cce5ff;
+  border: 1px solid #b8daff;
+}
+.error {
+  color: #721c24;
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+}
+
+/* Results Section Styles */
+.results-section {
+  margin-top: 25px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 20px;
+}
+.result-card {
+  background-color: #f8f9fa;
+  padding: 18px;
+  border-radius: 6px;
+  border: 1px solid #e9ecef;
+}
+.result-card h2 {
+  margin: 0 0 12px 0;
+  color: #343a40;
+  font-size: 1.15rem;
+  font-weight: 600;
+  border-bottom: 1px solid #dee2e6;
+  padding-bottom: 8px;
+}
+.result-card p {
+  margin-bottom: 10px;
+  font-size: 0.98rem;
+}
+.result-card strong {
+  color: #495057;
+  font-weight: 600;
+}
+.generated-text {
+  font-style: italic;
+  color: #495057;
+  background: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  border-left: 4px solid #007bff;
+  margin-top: 6px;
+  font-size: 0.95rem;
+  word-wrap: break-word; /* Ensure long words wrap */
+  white-space: pre-wrap; /* Respect whitespace and wrap */
+}
+
+/* Footer Styles */
+footer {
+  margin-top: 35px;
+  text-align: center;
+  font-size: 0.85em;
+  color: #6c757d;
+  border-top: 1px solid #dee2e6;
+  padding-top: 15px;
+}
+
+/* Add any specific overrides for default Next.js styles if needed */
+/* For example, if Next.js adds body padding you don't want */
+/* body { padding: 0; } */
