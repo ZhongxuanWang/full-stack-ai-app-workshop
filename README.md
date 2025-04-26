@@ -4,14 +4,14 @@
 
 ## Frontend Set up
 
-1. Run `npx create-next-app@latest frontend`
-   2. **No** typescript (keep it simpler)<br>
-   3. **Yes** ESLint (ESLint is a tool that analyzes your JavaScript (or TypeScript) code to find and fix problems.)<br>
-   4. **No** Tailwind CSS (we will use our own global CSS for simplicity)<br>
-   5. **No** `src/` directory (we will use our own `app` directory)<br>
-   6. **Yes** App Router (App Router is a new way to build applications in Next.js. It allows you to define your application structure using folders and files, making it easier to manage and understand your codebase.)<br>
-   7. **No** Turbopack (Turbopack is a new Rust-based bundler for JavaScript and TypeScript applications. It is designed to be faster than Webpack, but it is still in alpha and not recommended for production use.)<br>
-   8. **No** customize adefault import alias (we will use our own import alias)<br>
+1. Run `npx create-next-app@latest frontend`<br>
+2. **No** typescript (keep it simpler)<br>
+3. **Yes** ESLint (ESLint is a tool that analyzes your JavaScript (or TypeScript) code to find and fix problems.)<br>
+4. **No** Tailwind CSS (we will use our own global CSS for simplicity)<br>
+5. **No** `src/` directory (we will use our own `app` directory)<br>
+6. **Yes** App Router (App Router is a new way to build applications in Next.js. It allows you to define your application structure using folders and files, making it easier to manage and understand your codebase.)<br>
+7. **No** Turbopack (Turbopack is a new Rust-based bundler for JavaScript and TypeScript applications. It is designed to be faster than Webpack, but it is still in alpha and not recommended for production use.)<br>
+8. **No** customize adefault import alias (we will use our own import alias)<br>
 
 Note: In the frontend folder, we are only modifying the globals.css and page.js
 
