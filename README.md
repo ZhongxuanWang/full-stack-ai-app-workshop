@@ -1,6 +1,6 @@
 # CDS Datathon Spring 2025, Workshop on AI Integrated Full Stack Web App
 
-<div style="text-align: center; font-size: large;">Slides will be posted soon!!</div>
+## [Workshop Presentation](https://docs.google.com/presentation/d/1E23JgsLinDPs51u1VnHnFIWNKWmDsohXFly82qdXltI/edit?usp=sharing)
 
 ## Frontend Set up
 
